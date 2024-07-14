@@ -1,0 +1,56 @@
+/* ===== */
+/* lllll */
+/* lllll */
+/* lllll */
+/* ===== */
+
+.left-sec h2 {
+  color: var(--text-primary-color);
+}
+.left-sec p {
+  color: var(--text-secondary-color);
+}
+
+form .input {
+  background-color: var(--third-bg);
+  border: 1px solid var(--border);
+}
+form .input:focus {
+  outline: unset;
+  border: 1px solid var(--hover-border);
+  transition: var(--transition);
+}
+.submit {
+    border: 2px solid var(--border);
+    background-color: var(--third-bg);
+    color: var(--text-secondary-color);
+    transition: var(--transition);
+}
+.submit:hover {
+    color: var(--text-primary-color);
+    border: 2px solid var(--hover-border);
+}
+
+.success-form  {
+  border: 2px solid var(--border);
+  background-color: var(--third-bg);
+  color: var(--text-primary-color);
+}
+
+
+@media (min-width: 320px) {
+   #contact .right-sec {
+  display: none;
+}
+}
+
+@media (min-width: 768px) {
+  #contact .right-sec {
+  display: block;
+}
+}
+@media (min-width: 1024px) {
+  #contact .right-sec {
+  display: block;
+}
+}

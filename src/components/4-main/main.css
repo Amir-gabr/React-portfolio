@@ -1,0 +1,34 @@
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.left-sec .active-btn {
+  color: var(--text-primary-color);
+  border: 2px solid var(--hover-border);
+  transition: var(--transition);
+}
+.left-sec button {
+  color: var(--text-secondary-color);
+  border-radius: 5px;
+  border: 2px solid var(--border);
+  padding: 5px 10px;
+  background-color: var(--third-bg);
+  min-width: 150px;
+}
+.project-card {
+  max-height: 360px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: var(--third-bg);
+  transition: var(--transition);
+}
+.project-card:hover {
+  box-shadow: 1px 1px 10px var(--shadow);
+  rotate: 2deg;
+  scale: 1.01;
+  border: 1px solid var(--hover-border);
+}
+

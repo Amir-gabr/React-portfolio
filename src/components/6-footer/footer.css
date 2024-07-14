@@ -1,0 +1,20 @@
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
+ul li {
+    color: var(--text-primary-color);
+}
+ul li a {
+transition: var(--transition);
+color: var(--text-primary-color);
+}
+ul li:hover a {
+color: var(--hover-links);
+}
+p {
+    color: var(--text-secondary-color);
+    font-size: 18px;
+}

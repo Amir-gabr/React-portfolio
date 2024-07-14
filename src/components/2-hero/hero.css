@@ -1,0 +1,22 @@
+/*  */
+/*  */
+/*  */
+/*  */
+#hero {
+  min-height: 70vh;
+  max-width: 86%;
+  margin-inline: auto;
+}
+
+.hero-img img {
+  border-radius: 50%;
+}
+
+#social-icons i {
+  transition: var(--transition);
+}
+
+#social-icons i:hover {
+  color: var(--icon-hover);
+  scale: 1.2;
+}
