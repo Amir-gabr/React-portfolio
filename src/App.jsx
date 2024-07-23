@@ -18,10 +18,10 @@ export default function App() {
           <Particle />
         </div>
       </div>
-      <div className="relative z-50">
+      <div className="relative z-50 w-screen">
         <Header />
         <Hero />
-        <main className="">
+        <main className="w-full">
           <div className="" id="divider"></div>
           <Main  />
           {/* <div className="" id="divider"></div> */}

@@ -27,22 +27,39 @@ export default function Hero() {
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold">
             Hi, I am Amir Ahmed!
           </h1>
-          <p className="text-xl md:text-2xl lg:text-3xl">
-            I am a front-end React.js & Next.js developer
+          <p className="text-sm md:text-lg">
+            I am a front-end React.js & Next.js developer passionate about
+            creating creative and cool user interfaces. With a keen eye for
+            design and a knack for coding, I am always aiming to improve user
+            experiences and build responsive design . Let's create something
+            amazing together!
           </p>
           <div
             className="flex justify-center lg:justify-start items-center gap-6"
             id="social-icons"
           >
-            <i className="text-2xl cursor-pointer bx bxl-facebook-circle"></i>
-            <i className="text-2xl cursor-pointer bx bxl-instagram"></i>
             <a href="https://github.com/Amir-gabr?tab=repositories">
-            <i className="text-2xl cursor-pointer bx bxl-github"></i>
+              <i className="text-2xl cursor-pointer bx bxl-github"></i>
             </a>
             <i className="text-2xl cursor-pointer bx bxl-linkedin-square"></i>
           </div>
+          <div
+            className="flex justify-center lg:justify-start items-center gap-6"
+            id="social-icons"
+          >
+            <a
+              href="src/assets/usa1.pdf"
+              className="heroBtn"
+              download="usa1.pdf"
+            >
+              Download CV.
+            </a>
+            <a href="#contact" className="heroBtn">
+              Hair me.
+            </a>
+          </div>
         </div>
-        <div className="right-sec self-center" id="">
+        <div className="right-sec self-center hidden md:block" id="">
           <div className="w-[400px] md:w-[500px] lg:w-full ms-auto me-auto">
             <Lottie className="max-w-full" animationData={heroAnimation} />
           </div>

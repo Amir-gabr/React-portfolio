@@ -20,6 +20,8 @@
   --icon-hover: #d4d4d8;
   --icon-theme:#f5f5f5;
   --transition: 0.3s;
+  --btnColor: #ffffff;
+  --btnBg: #000000;
 }
 .light {
   --first-bg: #f7f7f7;
@@ -34,6 +36,8 @@
   --icon-hover: #4d4d4d;
   --icon-theme:#c96100;
   --transition: 0.3s;
+  --btnColor: #000000;
+  --btnBg: #ffffff;
 }
 *,
 *::before,

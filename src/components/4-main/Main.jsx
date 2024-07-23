@@ -129,11 +129,11 @@ export default function Main() {
                   className="project-card flex flex-col justify-between"
                   key={id}
                 >
-                  <div className="image-container w-full overflow-hidden rounded-md min-h-56 md:min-h-48">
+                  <div className="image-container p-3 w-full overflow-hidden rounded-md min-h-56 md:min-h-48">
                     <img
-                      className="w-full h-full"
+                      className="w-full h-full object-cover rounded-t-md"
                       src={item.image}
-                      alt="my image"
+                      alt="images..."
                     />
                   </div>
                   <div className="info-container flex flex-col justify-between h-full p-3">
