@@ -7,6 +7,7 @@ import Contact from "./components/5-contact/Contact";
 import Footer from "./components/6-footer/Footer";
 import Particle from "./components/Particles";
 import Cursor from "./components/Cursor";
+import Skills from "./components/3-skills/Skills";
 
 //
 export default function App() {
@@ -23,10 +24,9 @@ export default function App() {
         <Hero />
         <main className="w-full">
           <div className="" id="divider"></div>
-          <Main  />
-          {/* <div className="" id="divider"></div> */}
+          <Skills />
+          <Main />
           <Contact />
-          {/* <div className="" id="divider"></div> */}
           <Footer />
           <Scroll2Top />
         </main>

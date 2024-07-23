@@ -1,0 +1,8 @@
+
+
+.skillCard {
+    background-color:var(--third-bg);
+}
+.skillName {
+    color:var(--text-primary-color) ;
+}

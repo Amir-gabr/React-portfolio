@@ -5,6 +5,13 @@ import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import "./main.css";
 import { myProjects } from "../projectsData/Projects";
+import ScrollReveal from "scrollreveal";
+
+ScrollReveal().reveal(".project-card", {
+  interval: 200,
+  duration: 1500,
+  reset: true,
+});
 
 export default function Main() {
   //
@@ -143,12 +150,20 @@ export default function Main() {
                       </h3>
                       <p className="text-sm capitalize">{item.description}</p>
                     </div>
-                    <div className="icons-container flex items-center gap-3">
-                      <a className="text-2xl pt-1" href={item.hostLink}>
-                        <i className=" bx bx-link"></i>
+                    <div className="icons-container flex items-center justify-between gap-3">
+                      <a
+                        className="pt-1 flex items-center gap-1"
+                        href={item.gitLink}
+                      >
+                        <i className="text-2xl bx bxl-github"></i>
+                        <p className="text-sm">Demo</p>
                       </a>
-                      <a className="text-2xl pt-1" href={item.gitLink}>
-                        <i className="bx bxl-github"></i>
+                      <a
+                        className="pt-1 flex items-center gap-1"
+                        href={item.hostLink}
+                      >
+                        <p className="text-sm">Check Live Site</p>
+                        <i className="text-2xl bx bx-link"></i>
                       </a>
                     </div>
                   </div>
