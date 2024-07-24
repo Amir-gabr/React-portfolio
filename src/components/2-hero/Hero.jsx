@@ -13,7 +13,7 @@ export default function Hero() {
         className="grid grid-cols-1 lg:grid-cols-2 gap-4 pt-20 lg:pt-8"
         id="hero"
       >
-        <div className="left-sec text-center lg:text-left p-4 flex flex-col justify-center gap-1 lg:gap-5 ">
+        <div className="left-sec text-center lg:text-left p-4 flex flex-col justify-center gap-4 lg:gap-5 ">
           <div className="flex justify-center lg:justify-start gap-5 ">
             <div className="hero-img">
               <img
@@ -39,9 +39,9 @@ export default function Hero() {
             id="social-icons"
           >
             <a href="https://github.com/Amir-gabr?tab=repositories">
-              <i className="text-2xl cursor-pointer bx bxl-github"></i>
+              <i className="text-2xl md:text-3xl cursor-pointer bx bxl-github"></i>
             </a>
-            <i className="text-2xl cursor-pointer bx bxl-linkedin-square"></i>
+            <i className="text-2xl md:text-3xl cursor-pointer bx bxl-linkedin-square"></i>
           </div>
           <div
             className="flex justify-center lg:justify-start items-center gap-6"
@@ -49,12 +49,12 @@ export default function Hero() {
           >
             <a
               href="src/assets/usa1.pdf"
-              className="heroBtn"
+              className="heroBtn py-1 px-2 md:py-2 md:px-4 rounded-md"
               download="usa1.pdf"
             >
               Download CV.
             </a>
-            <a href="#contact" className="heroBtn">
+            <a href="#contact" className="heroBtn py-1 px-2 md:py-2 md:px-4 rounded-md">
               Hair me.
             </a>
           </div>

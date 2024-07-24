@@ -23,8 +23,5 @@
 
 .heroBtn {
   color: var(--btnBg);
-  font-weight: bold;
   background-color: var(--btnColor);
-  padding: 12px 20px ;
-  border-radius: 20px;
 }

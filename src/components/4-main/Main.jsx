@@ -4,7 +4,7 @@
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import "./main.css";
-import { myProjects } from "../projectsData/Projects";
+import { myProjects } from "../data/Data";
 import ScrollReveal from "scrollreveal";
 
 ScrollReveal().reveal(".project-card", {
@@ -17,7 +17,7 @@ export default function Main() {
   //
   const [active, setActive] = useState("all");
   const [arr, setArr] = useState(myProjects);
-//
+  //
   function handleClick(categoryBtn) {
     setActive(categoryBtn);
     const newArr = myProjects.filter((item) => {
@@ -133,7 +133,7 @@ export default function Main() {
                   initial={{ transform: "scale(0)", opacity: 0 }}
                   animate={{ transform: "scale(1)", opacity: 1 }}
                   transition={{ type: "spring", damping: 8, stiffness: 50 }}
-                  className="project-card flex flex-col justify-between"
+                  className="project-card flex flex-col justify-between overflow-hidden rounded-md"
                   key={id}
                 >
                   <div className="image-container p-3 w-full overflow-hidden rounded-md min-h-56 md:min-h-48">
@@ -143,9 +143,9 @@ export default function Main() {
                       alt="images..."
                     />
                   </div>
-                  <div className="info-container flex flex-col justify-between h-full p-3">
+                  <div className="info-container flex flex-col justify-between h-full gap-3 p-2">
                     <div className="info">
-                      <h3 className="text-2xl font-bold self-start capitalize">
+                      <h3 className="text-2xl font-semibold self-start capitalize">
                         {item.name}
                       </h3>
                       <p className="text-sm capitalize">{item.description}</p>
