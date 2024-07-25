@@ -13,9 +13,7 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { SiTypescript, SiJquery, SiNextdotjs } from "react-icons/si";
 import { TbBrandRedux } from "react-icons/tb";
 import { GiCheckMark } from "react-icons/gi";
-
-
-
+//
 
 
 export const myProjects = [
@@ -144,6 +142,7 @@ export const skills = [
     icon: <FaSass className="text-pink-500 text-6xl" />,
   },
 ];
+
 export const technology = [
   {
     name: "Yup",

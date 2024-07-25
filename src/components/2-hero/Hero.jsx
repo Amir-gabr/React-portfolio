@@ -1,6 +1,6 @@
 //
 //
-
+//
 import Lottie from "lottie-react";
 import heroAnimation from "../../animations/hero.json";
 import "./hero.css";
