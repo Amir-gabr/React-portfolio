@@ -50,7 +50,7 @@ export default function Hero() {
             <a
               href="src/assets/Cv.pdf"
               className="heroBtn py-1 px-2 md:py-2 md:px-4 rounded-md"
-              download="src/assets/Cv.pdf"
+              download="Cv.pdf"
               target="_blank"
             >
               Download CV.
