@@ -48,7 +48,7 @@ export default function Hero() {
             id="social-icons"
           >
             <a
-              href="src/assets/usa1.pdf"
+              href="src/assets/Cv.pdf"
               className="heroBtn py-1 px-2 md:py-2 md:px-4 rounded-md"
               download="usa1.pdf"
             >
