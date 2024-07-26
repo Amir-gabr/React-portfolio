@@ -104,7 +104,7 @@ export const skills = [
   { name: "CSS", icon: <FaCss3Alt className="text-blue-500 text-6xl" /> },
   { name: "JavaScript", icon: <FaJs className="text-yellow-500 text-6xl" /> },
   {
-    name: "Tailwind.css",
+    name: "Tailwind",
     icon: <RiTailwindCssFill className="text-teal-600 text-6xl" />,
   },
   {
@@ -112,7 +112,7 @@ export const skills = [
     icon: <img src="./images/m.ui.png" alt="img" className="w-[60px]" />,
   },
   {
-    name: "Bootstrap.css",
+    name: "Bootstrap",
     icon: <FaBootstrap className="text-indigo-600 text-6xl" />,
   },
   { name: "Jquery ", icon: <SiJquery className="text-cyan-800 text-6xl" /> },
