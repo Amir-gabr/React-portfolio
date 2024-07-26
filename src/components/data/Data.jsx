@@ -157,5 +157,9 @@ export const technology = [
     name: "Axios",
     icon: <GiCheckMark className=" text-xl" />,
   },
+  {
+    name: "Git & GitHub",
+    icon: <GiCheckMark className=" text-xl" />,
+  },
 ];
 

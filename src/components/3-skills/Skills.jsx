@@ -37,7 +37,7 @@ const Skills = () => {
       <div className="divider mx-auto w-1/2 mb-2"></div>
       <div className="divider mx-auto w-1/3 mb-2"></div>
       <div className="divider mx-auto w-1/2"></div>
-      <div className=" grid grid-cols-3 md:grid-cols-6 lg:grid-cols-8 gap-6 py-10">
+      <div className=" grid grid-cols-2 md:grid-cols-5 lg:grid-cols-7 gap-6 py-10">
         {technology.map((skill, index) => (
           <div
             key={index}
