@@ -27,7 +27,7 @@ const Skills = () => {
         {skills.map((skill, index) => (
           <div
             key={index}
-            className="skillCard flex flex-col items-center p-2 border rounded-lg shadow-md"
+            className="skillCard flex flex-col items-center justify-center p-2 border rounded-lg shadow-md"
           >
             <div className=" mb-4">{skill.icon}</div>
             <h3 className="skillName text-lg font-semibold">{skill.name}</h3>
@@ -37,7 +37,7 @@ const Skills = () => {
       <div className="divider mx-auto w-1/2 mb-2"></div>
       <div className="divider mx-auto w-1/3 mb-2"></div>
       <div className="divider mx-auto w-1/2"></div>
-      <div className=" grid grid-cols-2 md:grid-cols-5 lg:grid-cols-7 gap-6 py-10">
+      <div className=" grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6 py-10">
         {technology.map((skill, index) => (
           <div
             key={index}
