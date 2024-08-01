@@ -50,7 +50,7 @@ export default function Hero() {
             id="social-icons"
           >
             <a
-              href={`https://foulabook.com/book/downloading/595072764`}
+              href={`https://drive.google.com/uc?export=download&id=113IJkjM697siyxuqZxMk51f1bjFOplnp`}
               className="heroBtn py-1 px-2 md:py-2 md:px-4 rounded-md"
               download
               target="_blank"
