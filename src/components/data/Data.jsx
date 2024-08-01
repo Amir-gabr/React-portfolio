@@ -88,14 +88,24 @@ export const myProjects = [
     gitLink: "https://github.com/Amir-gabr/MegaStore",
   },
   {
-    name: "Mg.Store",
+    name: "TopStore",
     category: ["react"],
     // tools:["./js.png",'./bootstrap.png'],
     description:
       "Responsive E-commerce website using React.js,Tailwind.css,Formak & Yup",
-    image: "./images/mgStore.png",
+    image: "./images/topStore.png",
     hostLink: "https://fresh-cart-eta-two.vercel.app/",
     gitLink: "https://github.com/Amir-gabr/Fresh-cart",
+  },
+  {
+    name: "HealthyCare Center",
+    category: ["react"],
+    // tools:["./js.png",'./bootstrap.png'],
+    description:
+      "Responsive design with interactive user interface using React.js,Tailwind.css,Formak & Yup",
+    image: "./images/clinic.png",
+    hostLink: "https://clinic-one-lilac.vercel.app/",
+    gitLink: "https://github.com/Amir-gabr/clinic",
   },
 ];
 

@@ -2,7 +2,7 @@
 //
 //
 import Lottie from "lottie-react";
-import heroAnimation from "../../animations/hero.json";
+import heroAnimation from "../../assets/animations/hero.json";
 import "./hero.css";
 
 export default function Hero() {
