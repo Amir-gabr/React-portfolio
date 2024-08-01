@@ -3,6 +3,8 @@
 //
 import Lottie from "lottie-react";
 import heroAnimation from "../../assets/animations/hero.json";
+// import cv from "../../../public/CvFront-End.pdf";
+
 import "./hero.css";
 
 export default function Hero() {
@@ -31,8 +33,8 @@ export default function Hero() {
             I am a front-end React.js & Next.js developer passionate about
             creating creative and cool user interfaces. With a keen eye for
             design and a knack for coding, I am always aiming to improve user
-            experiences and build responsive design . Let's create something
-            amazing together!
+            experiences and build responsive design . Let&apos;s create
+            something amazing together!
           </p>
           <div
             className="flex justify-center lg:justify-start items-center gap-6"
@@ -48,14 +50,17 @@ export default function Hero() {
             id="social-icons"
           >
             <a
-              href="src/assets/Cv.pdf"
+              href={`https://foulabook.com/book/downloading/595072764`}
               className="heroBtn py-1 px-2 md:py-2 md:px-4 rounded-md"
-              download="Cv.pdf"
+              download
               target="_blank"
             >
               Download CV.
             </a>
-            <a href="#contact" className="heroBtn py-1 px-2 md:py-2 md:px-4 rounded-md">
+            <a
+              href="#contact"
+              className="heroBtn py-1 px-2 md:py-2 md:px-4 rounded-md"
+            >
               Hair me.
             </a>
           </div>
