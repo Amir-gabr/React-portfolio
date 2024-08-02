@@ -143,7 +143,7 @@ export default function Main() {
                       alt="images..."
                     />
                   </div>
-                  <div className="info-container flex flex-col justify-between h-full gap-3 p-2">
+                  <div className="info-container flex flex-col justify-between h-full gap-6 p-2">
                     <div className="info">
                       <h3 className="text-2xl font-semibold self-start capitalize">
                         {item.name}

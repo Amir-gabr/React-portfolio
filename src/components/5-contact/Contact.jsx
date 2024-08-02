@@ -17,7 +17,7 @@ export default function Contact() {
         id="contact"
       >
         <div className="left-sec">
-          <h2 className="text-4xl flex items-center gap-4 font-bold mb-2">
+          <h2 className="text-4xl flex items-center gap-4 font-bold mb-2 px-4">
             <i className="bx bxs-envelope"></i>
             Contact me
           </h2>
