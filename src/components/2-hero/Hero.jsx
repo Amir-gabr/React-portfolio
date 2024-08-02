@@ -8,7 +8,6 @@ import heroAnimation from "../../assets/animations/hero.json";
 import "./hero.css";
 
 export default function Hero() {
-  
   return (
     <>
       <section
@@ -50,7 +49,8 @@ export default function Hero() {
             id="social-icons"
           >
             <a
-              href={`https://drive.google.com/uc?export=download&id=113IJkjM697siyxuqZxMk51f1bjFOplnp`}
+              href={`https://drive.google.com/uc?export=download&id=1BW-uB5KWNbtWWJu8nPgl9GXNqmGlaynO
+`}
               className="heroBtn py-1 px-2 md:py-2 md:px-4 rounded-md"
               download
               target="_blank"

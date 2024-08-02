@@ -78,6 +78,16 @@ export const myProjects = [
     gitLink: "https://github.com/Amir-gabr/Yummy-Meals",
   },
   {
+    name: "Weather App",
+    category: ["bootstrap"],
+    // tools:["./js.png",'./bootstrap.png'],
+    description: "Responsive Weather App using Html,Css , js & Bootstrap",
+    image: "./images/weather.png",
+    hostLink:
+      "https://66ac517a0175d3be4d5366ae--preeminent-fox-920e24.netlify.app/",
+    gitLink: "https://github.com/Amir-gabr/Weather-App",
+  },
+  {
     name: "MegaStore",
     category: ["next"],
     // tools:["./js.png",'./bootstrap.png'],
