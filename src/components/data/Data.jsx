@@ -181,5 +181,9 @@ export const technology = [
     name: "Git & GitHub",
     icon: <GiCheckMark className=" text-xl" />,
   },
+  {
+    name: "React Helmet",
+    icon: <GiCheckMark className=" text-xl" />,
+  },
 ];
 
