@@ -29,20 +29,28 @@ export default function Hero() {
             Hi, I am Amir Ahmed!
           </h1>
           <p className="text-sm md:text-lg">
-            I am a front-end React.js & Next.js developer passionate about
-            creating creative and cool user interfaces. With a keen eye for
-            design and a knack for coding, I am always aiming to improve user
-            experiences and build responsive design . Let&apos;s create
-            something amazing together!
+            I am 26 years old, I am a front-end React.js & Next.js developer
+            passionate about creating creative and cool user interfaces. With a
+            keen eye for design and a knack for coding, I am always aiming to
+            improve user experiences and build responsive design . Let&apos;s
+            create something amazing together!
           </p>
           <div
             className="flex justify-center lg:justify-start items-center gap-6"
             id="social-icons"
           >
             <a href="https://github.com/Amir-gabr?tab=repositories">
-              <i className="text-2xl md:text-3xl cursor-pointer bx bxl-github"></i>
+              <i
+                className="text-2xl md:text-3xl cursor-pointer bx bxl-github"
+                id="github"
+              ></i>
             </a>
-            <i className="text-2xl md:text-3xl cursor-pointer bx bxl-linkedin-square"></i>
+            <a href="https://wa.me/+201008603297">
+              <i className="text-2xl md:text-3xl cursor-pointer bx bxl-whatsapp"id="whatsapp"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/amir-gabr-74a7b5203?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+              <i className="text-2xl md:text-3xl cursor-pointer bx bxl-linkedin-square"id="linkedin"></i>
+            </a>
           </div>
           <div
             className="flex justify-center lg:justify-start items-center gap-6"
