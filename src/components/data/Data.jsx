@@ -18,10 +18,16 @@ import { GiCheckMark } from "react-icons/gi";
 
 export const myProjects = [
   {
-    name: "Jewelry-Store",
+    name: "Jewelry Store",
     category: ["html"],
-    // tools:["./html.png","./css.png"],
-    description: "jewelry Store using Html,Css & Bootstrap",
+    description: (
+      <div className="flex flex-wrap gap-1">
+        <p className="skill py-1 px-2 rounded-md">Html</p>
+        <p className="skill py-1 px-2 rounded-md">Css</p>
+        <p className="skill py-1 px-2 rounded-md">Bootstrap</p>
+      </div>
+    ),
+
     image: "./images/jewelry.png",
     hostLink:
       "https://66117b2500c5bf09540919ce--gentle-dango-5090f7.netlify.app/",
@@ -30,8 +36,12 @@ export const myProjects = [
   {
     name: "Cor-Amir",
     category: ["html"],
-    // tools:["./html.png","./css.png","./js.png"],
-    description: "Portfolio website using Html & Css",
+    description: (
+      <div className="flex flex-wrap gap-1">
+        <p className="skill py-1 px-2 rounded-md">Html</p>
+        <p className="skill py-1 px-2 rounded-md">Css</p>
+      </div>
+    ),
     image: "./images/cor-amir.png",
     hostLink:
       "https://66128957bdfc6fab27ba0147--spontaneous-meerkat-bf2de5.netlify.app/",
@@ -40,8 +50,14 @@ export const myProjects = [
   {
     name: "Bookmark",
     category: ["bootstrap"],
-    // tools:["./js.png",'./bootstrap.png'],
-    description: "Bookmark App using Html , Css ,Js & Bootstrap",
+    description: (
+      <div className="flex flex-wrap gap-1">
+        <p className="skill py-1 px-2 rounded-md">Html</p>
+        <p className="skill py-1 px-2 rounded-md">Css</p>
+        <p className="skill py-1 px-2 rounded-md">Bootstrap</p>
+        <p className="skill py-1 px-2 rounded-md">JavaScript</p>
+      </div>
+    ),
     image: "./images/bookmark.png",
     hostLink:
       "https://661183080b59610b6a2ea308--grand-beignet-7c7ff2.netlify.app/",
@@ -50,8 +66,13 @@ export const myProjects = [
   {
     name: "Devfolio",
     category: ["html"],
-    // tools:["./html.png","./css.png","./js.png"],
-    description: "static Portfolio website using Html , Css ,Js & Bootstrap",
+    description: (
+      <div className="flex flex-wrap gap-1">
+        <p className="skill py-1 px-2 rounded-md">Html</p>
+        <p className="skill py-1 px-2 rounded-md">Css</p>
+        <p className="skill py-1 px-2 rounded-md">Bootstrap</p>
+      </div>
+    ),
     image: "./images/devfolio.png",
     hostLink:
       "https://661188e5daf78d0f64a23d7c--papaya-kulfi-ba331b.netlify.app/",
@@ -60,8 +81,14 @@ export const myProjects = [
   {
     name: "المسلم",
     category: ["bootstrap"],
-    // tools:["./js.png",'./bootstrap.png'],
-    description: "  المسلم هو موقع لمواقيت الصلاة والقرآن الكريم وأذكار المسلم",
+    description: (
+      <div className="flex flex-wrap gap-1">
+        <p className="skill py-1 px-2 rounded-md">Html</p>
+        <p className="skill py-1 px-2 rounded-md">Css</p>
+        <p className="skill py-1 px-2 rounded-md">Bootstrap</p>
+        <p className="skill py-1 px-2 rounded-md">JavaScript</p>
+      </div>
+    ),
     image: "./images/muslim.png",
     hostLink:
       "https://66130dd2daf78d06c0a23e2b--illustrious-daifuku-092f1b.netlify.app/",
@@ -70,8 +97,14 @@ export const myProjects = [
   {
     name: "Yummy Meals",
     category: ["bootstrap"],
-    // tools:["./js.png",'./bootstrap.png'],
-    description: "Responsive Meals website using Html,Css & Bootstrap",
+    description: (
+      <div className="flex flex-wrap gap-1">
+        <p className="skill py-1 px-2 rounded-md">Html</p>
+        <p className="skill py-1 px-2 rounded-md">Css</p>
+        <p className="skill py-1 px-2 rounded-md">Bootstrap</p>
+        <p className="skill py-1 px-2 rounded-md">JavaScript</p>
+      </div>
+    ),
     image: "./images/yummy.png",
     hostLink:
       "https://6633b56c8c951b084702325f--stellular-semifreddo-d78747.netlify.app/",
@@ -80,8 +113,14 @@ export const myProjects = [
   {
     name: "Weather App",
     category: ["bootstrap"],
-    // tools:["./js.png",'./bootstrap.png'],
-    description: "Responsive Weather App using Html,Css , js & Bootstrap",
+    description: (
+      <div className="flex flex-wrap gap-1">
+        <p className="skill py-1 px-2 rounded-md">Html</p>
+        <p className="skill py-1 px-2 rounded-md">Css</p>
+        <p className="skill py-1 px-2 rounded-md">Bootstrap</p>
+        <p className="skill py-1 px-2 rounded-md">JavaScript</p>
+      </div>
+    ),
     image: "./images/weather.png",
     hostLink:
       "https://66ac517a0175d3be4d5366ae--preeminent-fox-920e24.netlify.app/",
@@ -90,9 +129,14 @@ export const myProjects = [
   {
     name: "MegaStore",
     category: ["next"],
-    // tools:["./js.png",'./bootstrap.png'],
-    description:
-      "Responsive E-commerce website using Next.js,Tailwind.css & Typescript",
+    description: (
+      <div className="flex flex-wrap gap-1">
+        <p className="skill py-1 px-2 rounded-md">Next.js</p>
+        <p className="skill py-1 px-2 rounded-md">TypeScript</p>
+        <p className="skill py-1 px-2 rounded-md">Tailwind</p>
+        <p className="skill py-1 px-2 rounded-md">Strip</p>
+      </div>
+    ),
     image: "./images/mega.png",
     hostLink: "https://mega-store-mu.vercel.app/",
     gitLink: "https://github.com/Amir-gabr/MegaStore",
@@ -100,9 +144,16 @@ export const myProjects = [
   {
     name: "TopStore",
     category: ["react"],
-    // tools:["./js.png",'./bootstrap.png'],
-    description:
-      "Responsive E-commerce website using React.js,Tailwind.css,Formak & Yup",
+    description: (
+      <div className="flex flex-wrap gap-1">
+        <p className="skill py-1 px-2 rounded-md">React.js</p>
+        <p className="skill py-1 px-2 rounded-md">Tailwind</p>
+        <p className="skill py-1 px-2 rounded-md">Formak</p>
+        <p className="skill py-1 px-2 rounded-md">Swiper</p>
+        <p className="skill py-1 px-2 rounded-md">Yup</p>
+        <p className="skill py-1 px-2 rounded-md">Strip</p>
+      </div>
+    ),
     image: "./images/topStore.png",
     hostLink: "https://fresh-cart-eta-two.vercel.app/",
     gitLink: "https://github.com/Amir-gabr/Fresh-cart",
@@ -110,9 +161,15 @@ export const myProjects = [
   {
     name: "HealthyCare Center",
     category: ["react"],
-    // tools:["./js.png",'./bootstrap.png'],
-    description:
-      "Responsive design with interactive user interface using React.js,Tailwind.css,Formak & Yup",
+    description: (
+      <div className="flex flex-wrap gap-1">
+        <p className="skill py-1 px-2 rounded-md">React.js</p>
+        <p className="skill py-1 px-2 rounded-md">Tailwind</p>
+        <p className="skill py-1 px-2 rounded-md">Formak</p>
+        <p className="skill py-1 px-2 rounded-md">Yup</p>
+        <p className="skill py-1 px-2 rounded-md">Swiper</p>
+      </div>
+    ),
     image: "./images/clinic.png",
     hostLink: "https://clinic-one-lilac.vercel.app/",
     gitLink: "https://github.com/Amir-gabr/clinic",
@@ -183,6 +240,10 @@ export const technology = [
   },
   {
     name: "React Helmet",
+    icon: <GiCheckMark className=" text-xl" />,
+  },
+  {
+    name: "React Query",
     icon: <GiCheckMark className=" text-xl" />,
   },
 ];

@@ -144,7 +144,7 @@ export default function Main() {
                     />
                   </div>
                   <div className="info-container flex flex-col justify-between h-full gap-6 p-2">
-                    <div className="info">
+                    <div className="info space-y-3">
                       <h3 className="text-2xl font-semibold self-start capitalize">
                         {item.name}
                       </h3>

@@ -37,13 +37,13 @@ const Skills = () => {
       <div className="divider mx-auto w-1/2 mb-2"></div>
       <div className="divider mx-auto w-1/3 mb-2"></div>
       <div className="divider mx-auto w-1/2"></div>
-      <div className=" grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6 py-10">
+      <div className="mx-auto grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6 py-10">
         {technology.map((skill, index) => (
           <div
             key={index}
             className="skillCard flex items-center justify-center p-2 gap-2 border rounded-lg shadow-md"
           >
-            <div className="">{skill.icon}</div>
+            <p className="">{skill.icon}</p>
             <h3 className="skillName text-lg font-semibold">{skill.name}</h3>
           </div>
         ))}
