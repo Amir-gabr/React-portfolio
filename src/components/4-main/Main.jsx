@@ -29,7 +29,7 @@ export default function Main() {
   return (
     <>
       <section
-        className="divider main-container section flex flex-col sm:flex-row gap-10"
+        className="divider main-container flex flex-col sm:flex-row gap-10 py-10"
         id="projects"
       >
         <article className="left-sec flex flex-wrap items-center justify-center sm:justify-start sm:items-start sm:flex-col gap-3 px-14 sm:px-0">
