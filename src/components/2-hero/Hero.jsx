@@ -46,10 +46,17 @@ export default function Hero() {
               ></i>
             </a>
             <a href="https://wa.me/+201008603297">
-              <i className="text-2xl md:text-3xl cursor-pointer bx bxl-whatsapp"id="whatsapp"></i>
+              <i
+                className="text-2xl md:text-3xl cursor-pointer bx bxl-whatsapp"
+                id="whatsapp"
+              ></i>
             </a>
+
             <a href="https://www.linkedin.com/in/amir-gabr-74a7b5203?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
-              <i className="text-2xl md:text-3xl cursor-pointer bx bxl-linkedin-square"id="linkedin"></i>
+              <i
+                className="text-2xl md:text-3xl cursor-pointer bx bxl-linkedin-square"
+                id="linkedin"
+              ></i>
             </a>
           </div>
           <div
@@ -57,8 +64,7 @@ export default function Hero() {
             id="social-icons"
           >
             <a
-              href={`https://drive.google.com/uc?export=download&id=1BW-uB5KWNbtWWJu8nPgl9GXNqmGlaynO
-`}
+              href={`https://drive.google.com/uc?export=download&id=1ESIGK5NPoUeqhgADM8jy-MVHqN4TC-_J`}
               className="heroBtn py-1 px-2 md:py-2 md:px-4 rounded-md"
               download
               target="_blank"
