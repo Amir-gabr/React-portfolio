@@ -16,7 +16,7 @@ export default function Contact() {
         className="divider main-container section relative grid grid-cols-1 md:grid-cols-2 gap-5"
         id="contact"
       >
-        <div className="left-sec">
+        <div className="left-sec px-8 md:px-0">
           <h2 className="text-4xl flex items-center gap-4 font-bold mb-2 px-4">
             <i className="bx bxs-envelope"></i>
             Contact me

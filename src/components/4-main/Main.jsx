@@ -123,7 +123,7 @@ export default function Main() {
         </article>
         <motion.article
           layout
-          className="right-sec grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-x-3 gap-y-6 flex-grow-1 px-14 sm:px-10 md:px-0"
+          className="right-sec grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-x-3 gap-y-6 flex-grow-1 px-6 sm:px-10 md:px-0"
         >
           <AnimatePresence mode="wait">
             {arr.map((item, id) => {
