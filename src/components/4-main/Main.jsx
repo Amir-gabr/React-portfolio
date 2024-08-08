@@ -143,7 +143,7 @@ export default function Main() {
                       alt="images..."
                     />
                   </div>
-                  <div className="info-container flex flex-col justify-between h-full gap-6 p-2">
+                  <div className="info-container flex flex-col justify-between h-full gap-3 p-2">
                     <div className="info space-y-3">
                       <h3 className="text-2xl font-semibold self-start capitalize">
                         {item.name}
@@ -162,8 +162,15 @@ export default function Main() {
                         className="pt-1 flex items-center gap-1"
                         href={item.hostLink}
                       >
-                        <p className="text-sm">Check Live Site</p>
+                        <p className="text-sm">Live Site</p>
                         <i className="text-2xl bx bx-link"></i>
+                      </a>
+                      <a
+                        className="pt-1 flex items-center gap-1"
+                        href={item.moreLink}
+                      >
+                        <p className="text-sm">More</p>
+                        <i className="text-2xl bx bx-chevrons-right"></i>
                       </a>
                     </div>
                   </div>

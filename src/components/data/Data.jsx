@@ -29,6 +29,7 @@ export const myProjects = [
     ),
 
     image: "./images/jewelry.png",
+    moreLink: "",
     hostLink:
       "https://66117b2500c5bf09540919ce--gentle-dango-5090f7.netlify.app/",
     gitLink: "https://github.com/Amir-gabr/Jewelry-Store",
@@ -43,6 +44,7 @@ export const myProjects = [
       </div>
     ),
     image: "./images/cor-amir.png",
+    moreLink: "",
     hostLink:
       "https://66128957bdfc6fab27ba0147--spontaneous-meerkat-bf2de5.netlify.app/",
     gitLink: "https://github.com/Amir-gabr/Portfolio",
@@ -59,6 +61,7 @@ export const myProjects = [
       </div>
     ),
     image: "./images/bookmark.png",
+    moreLink: "",
     hostLink:
       "https://661183080b59610b6a2ea308--grand-beignet-7c7ff2.netlify.app/",
     gitLink: "https://github.com/Amir-gabr/Bookmark-App",
@@ -74,12 +77,13 @@ export const myProjects = [
       </div>
     ),
     image: "./images/devfolio.png",
+    moreLink: "",
     hostLink:
       "https://661188e5daf78d0f64a23d7c--papaya-kulfi-ba331b.netlify.app/",
     gitLink: "https://github.com/Amir-gabr/Devfolio",
   },
   {
-    name: "المسلم",
+    name: "Al-muslim",
     category: ["bootstrap"],
     description: (
       <div className="flex flex-wrap gap-1">
@@ -90,6 +94,7 @@ export const myProjects = [
       </div>
     ),
     image: "./images/muslim.png",
+    moreLink: "https://github.com/Amir-gabr/Muslim-App/blob/main/README.md",
     hostLink:
       "https://66130dd2daf78d06c0a23e2b--illustrious-daifuku-092f1b.netlify.app/",
     gitLink: "https://github.com/Amir-gabr/Muslim-App",
@@ -106,6 +111,7 @@ export const myProjects = [
       </div>
     ),
     image: "./images/yummy.png",
+    moreLink: "",
     hostLink:
       "https://6633b56c8c951b084702325f--stellular-semifreddo-d78747.netlify.app/",
     gitLink: "https://github.com/Amir-gabr/Yummy-Meals",
@@ -122,6 +128,7 @@ export const myProjects = [
       </div>
     ),
     image: "./images/weather.png",
+    moreLink: "",
     hostLink:
       "https://66ac517a0175d3be4d5366ae--preeminent-fox-920e24.netlify.app/",
     gitLink: "https://github.com/Amir-gabr/Weather-App",
@@ -138,6 +145,8 @@ export const myProjects = [
       </div>
     ),
     image: "./images/mega.png",
+    moreLink:
+      "https://github.com/Amir-gabr/Mega-Store?tab=readme-ov-file#nextjs-project",
     hostLink: "https://mega-store-mu.vercel.app/",
     gitLink: "https://github.com/Amir-gabr/MegaStore",
   },
@@ -155,6 +164,8 @@ export const myProjects = [
       </div>
     ),
     image: "./images/topStore.png",
+    moreLink:
+      "https://github.com/Amir-gabr/Top-Store?tab=readme-ov-file#react--vite",
     hostLink: "https://fresh-cart-eta-two.vercel.app/",
     gitLink: "https://github.com/Amir-gabr/Fresh-cart",
   },
@@ -171,6 +182,8 @@ export const myProjects = [
       </div>
     ),
     image: "./images/clinic.png",
+    moreLink:
+      "https://github.com/Amir-gabr/Healthycare-Center?tab=readme-ov-file#react--vite",
     hostLink: "https://clinic-one-lilac.vercel.app/",
     gitLink: "https://github.com/Amir-gabr/clinic",
   },
