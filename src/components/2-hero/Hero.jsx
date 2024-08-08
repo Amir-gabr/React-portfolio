@@ -64,7 +64,7 @@ export default function Hero() {
             id="social-icons"
           >
             <a
-              href={`https://drive.google.com/uc?export=download&id=1ESIGK5NPoUeqhgADM8jy-MVHqN4TC-_J`}
+              href={`https://drive.google.com/uc?export=download&id=1lFxzcbI-1TUWxlbVgg_SGM3DYKNnLHfY`}
               className="heroBtn py-1 px-2 md:py-2 md:px-4 rounded-md"
               download
               target="_blank"
