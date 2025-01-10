@@ -45,7 +45,7 @@ export default function Hero() {
                 id="github"
               ></i>
             </a>
-            <a href="https://wa.me/+201008603297">
+            <a href="https://wa.me/+966551189526">
               <i
                 className="text-2xl md:text-3xl cursor-pointer bx bxl-whatsapp"
                 id="whatsapp"
