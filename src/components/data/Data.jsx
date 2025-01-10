@@ -187,6 +187,23 @@ export const myProjects = [
     hostLink: "https://clinic-one-lilac.vercel.app/",
     gitLink: "https://github.com/Amir-gabr/clinic",
   },
+  {
+    name: "Foodie Cart",
+    category: ["next"],
+    description: (
+      <div className="flex flex-wrap gap-1">
+        <p className="skill py-1 px-2 rounded-md">Next.js</p>
+        <p className="skill py-1 px-2 rounded-md">Tailwind</p>
+        <p className="skill py-1 px-2 rounded-md">Clerk</p>
+        <p className="skill py-1 px-2 rounded-md">hyGraph CMS</p>
+        <p className="skill py-1 px-2 rounded-md">Swiper</p>
+      </div>
+    ),
+    image: "./images/foodieCart.png",
+    moreLink: "https://github.com/Amir-gabr/Foodie-cart",
+    hostLink: "https://foodie-cart-chi.vercel.app/",
+    gitLink: "https://github.com/Amir-gabr/Foodie-cart",
+  },
 ];
 
 export const skills = [
@@ -245,6 +262,10 @@ export const technology = [
   },
   {
     name: "Axios",
+    icon: <GiCheckMark className=" text-xl" />,
+  },
+  {
+    name: "GraphQL",
     icon: <GiCheckMark className=" text-xl" />,
   },
   {
